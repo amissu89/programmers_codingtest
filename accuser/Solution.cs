@@ -93,6 +93,8 @@ return 하는 배열은 id_list에 담긴 id 순서대로 각 유저가 받은 �
                     {
                         accuserList[accuser].Add(accused);
                     }
+                    else 
+                        continue;
                 }
 
                 if(!accusedCntList.ContainsKey(accused))
